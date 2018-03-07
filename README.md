@@ -341,9 +341,6 @@ def Histogram(warpedimage):
 ```
 
 
-```python
-
-```
 
 
 
