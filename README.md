@@ -1,4 +1,10 @@
 
+# Advanced Lane Lines Detection
+---
+This repo contains code for Project 4 of Term 1. 
+
+Following are the steps that were performed.
+
 ## Camera Calibration
 
 I started by Preparing Objpoints and ImagePoints. The following steps were followed-:
