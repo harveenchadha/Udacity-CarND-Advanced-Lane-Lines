@@ -116,9 +116,7 @@ def undistortImage(image):
 ```
 
 
-```python
 
-```
 
 
 ![png](./writeup/output_8_0.png)
@@ -162,10 +160,7 @@ def WarpPerspective(image):
 ```
 
 
-```python
 
-
-```
 
 
 ![png](./writeup/output_12_0.png)
@@ -207,10 +202,6 @@ def ExtractChannel(image,colorspace,threshold,channel=0):
     return binary
 ```
 
-
-```python
-
-```
 
 
 
@@ -273,9 +264,7 @@ def Sobel(warpedimage, threshold, sobelType, kernelSize=3):
 ```
 
 
-```python
 
-```
 
 
 
@@ -320,9 +309,7 @@ def combineEverything(warpedImage, color_threshold, sobel_threshold):
 ```
 
 
-```python
 
-```
 
 
 ![png](./writeup/output_24_0.png)
@@ -447,18 +434,13 @@ def SlidingWindowSearch(binary_warped, plot=False):
 ```
 
 
-```python
 
-```
 
 
 ![png](./writeup/output_31_0.png)
 
 
 
-```python
-
-```
 
 
 ![png](./writeup/output_32_0.png)
@@ -556,9 +538,7 @@ def DrawLine(original_image,binary_warped, left_fit, right_fit):
 ```
 
 
-```python
 
-```
 
 
 
@@ -609,9 +589,7 @@ def pipeline(originalImage):
 ## Running Pipeline on Test Images
 
 
-```python
 
-```
 
 
 ![png](./writeup/output_43_0.png)
